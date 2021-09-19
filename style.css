@@ -260,7 +260,6 @@ img {
   justify-self: center;
 }
 .video-img img {
-  width: 325px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(146, 161, 176, 0.3);
 }
