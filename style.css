@@ -419,3 +419,21 @@ figcaption {
 .contact-icon:hover {
   color: var(--first-color);
 }
+
+.footer {
+  background-color: var(--third-color);
+  color: #ffffff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+.footer-title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-2);
+}
+.footer-img {
+  display: inline-block;
+}
+.footer-link {
+  color: #ffffff;
+}
