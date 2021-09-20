@@ -380,20 +380,31 @@ figcaption {
   transform: translate(5px, -4px);
 }
 
-.work-container {
+.work-container,
+.code-container {
   row-gap: 2rem;
   text-align: center;
 }
-.work-subtitle {
+.work-subtitle,
+.code-subtitle {
   margin-bottom: var(--mb-2);
 }
-.work-img {
+.work-img,
+.code-img {
   justify-self: center;
 }
 .work-img img {
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(146, 161, 176, 0.3);
 }
-.work-link {
+.work-link,
+.code-link {
   color: var(--first-color);
+}
+.code-img img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(146, 161, 176, 0.3);
+}
+.code-text {
+  text-align: left;
 }

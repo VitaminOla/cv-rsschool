@@ -9,6 +9,14 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <title>CV VitaminOla</title>
   </head>
   <body>
@@ -29,6 +37,7 @@
               <a href="#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
             <li class="nav-item">
               <a href="#contact" class="nav-link">Contact</a>
             </li>
@@ -250,6 +259,41 @@
               <abbr title="Document Object Model">DOM</abbr>; work with date and
               time.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="code section" id="code">
+        <h2 class="section-title">Code</h2>
+
+        <div class="code-container bd-grid">
+          <div class="code-img">
+            <img src="assets/img/codewars.png" alt="Profile Codewars" />
+          </div>
+
+          <div>
+            <h2 class="code-subtitle">
+              Kata
+              <a
+                href="https://www.codewars.com/kata/5b7176768adeae9bc9000056"
+                target="_blank"
+                class="code-link"
+                >Element equals its index</a
+              >
+            </h2>
+            <pre
+              class="code-text"
+            > <code class ="JavaScript">function indexEqualsValue(a) {
+    let l = 0;  //left
+    let r = a.length - 1;  //right
+    let mid;
+    while (r - l > 1) {
+      mid = Math.floor(l + (r - l)/2);
+      if (a[mid]< mid) { l = mid; 
+       } else { r = mid; }
+      }  
+    return (a[r] === r) ? r : -1;
+    }</code></pre>
           </div>
         </div>
       </section>
