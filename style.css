@@ -379,3 +379,21 @@ figcaption {
   background-color: var(--first-color);
   transform: translate(5px, -4px);
 }
+
+.work-container {
+  row-gap: 2rem;
+  text-align: center;
+}
+.work-subtitle {
+  margin-bottom: var(--mb-2);
+}
+.work-img {
+  justify-self: center;
+}
+.work-img img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(146, 161, 176, 0.3);
+}
+.work-link {
+  color: var(--first-color);
+}
