@@ -381,7 +381,8 @@ figcaption {
 }
 
 .work-container,
-.code-container {
+.code-container,
+.contact-container {
   row-gap: 2rem;
   text-align: center;
 }
@@ -407,4 +408,14 @@ figcaption {
 }
 .code-text {
   text-align: left;
+}
+
+.contact-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+.contact-icon:hover {
+  color: var(--first-color);
 }
